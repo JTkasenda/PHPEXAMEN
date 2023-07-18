@@ -228,6 +228,22 @@ class DataClass{
         return $stmt->fetchAll();
     }
 
+    public function update_Food(array $data_form){
+        $sql = "UPDATE food SET f_title = ?, description=?, Price = ?, image= ?, category_title=?, featured = ?, active=? WHERE f_title = ?";
+        $stmt = $this->conn->prepare($sql);
+        $stmt->bindParam(1, $data_form['name']);
+        $stmt->bindParam(2, $data_form['desc']);
+        $stmt->bindParam(3, $data_form['price']);
+        $stmt->bindParam(4, $data_form['image']);
+        $stmt->bindParam(5, $data_form['category']);
+        $stmt->bindParam(6, $data_form['featured']);
+        $stmt->bindParam(7, $data_form['active']);
+        $stmt->bindParam(8, $data_form['f_name']);
+        $stmt->execute();
+        $message = $stmt->errorInfo();
+
+        return $message;
+    }
     public function generate_ID($entity){
         $stamp = time();
         if($entity == "food"):

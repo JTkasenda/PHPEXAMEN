@@ -40,7 +40,7 @@
                     <td>Category: </td>
                     <td>
                         <select name="category" id="category">
-                            <option value="">Choix</option>
+                            <option value="<?=$_GET["category"]?>"><?=$_GET["category"]?>(Defaut)</option>
                         </select>
                     </td>
                 </tr> 
@@ -48,6 +48,7 @@
                     <td>Aff. Page D'acceuil: </td>
                     <td>
                         <select name="featured" id="">
+                            <option value="<?=$_GET["featured"]?>"><?=$_GET["featured"]?>(Defaut)</option>
                             <option value="Non">Non</option>
                             <option value="Oui">Oui</option>
                         </select>
@@ -57,6 +58,7 @@
                     <td>Disponible: </td>
                     <td>
                     <select name="active" id="">
+                        <option value="<?=$_GET["active"]?>"><?=$_GET["active"]?>(Defaut)</option>
                             <option value="Non">Non</option>
                             <option value="Oui">Oui</option>
                         </select>
@@ -64,7 +66,7 @@
                 </tr>
                 <tr>
                     <td colspan="2">
-                        <input type="button" value="Ajouter Nourriture" name="../controller/add-food-controller.php" id="send" class="btn-secondary">
+                        <input type="button" value="Modifier" name="../controller/update-food-controller.php" id="send" class="btn-secondary">
                     </td>
                 </tr>
             </table>
