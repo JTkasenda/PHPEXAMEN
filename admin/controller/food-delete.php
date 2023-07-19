@@ -6,10 +6,8 @@ $DataClass = new DataClass();
 
 if(isset($_POST["submit"])){
  
-    $SaveAdmin = $DataClass->delete_menu($_POST["delete"]);
+    $SaveAdmin = $DataClass->delete_Food($_POST["delete"]);
 
    
         echo "Success";
 }
-
-

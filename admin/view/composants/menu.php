@@ -9,16 +9,16 @@
     <script>
         $("#pswd").prop('required', true);
     </script>
-    <link rel="stylesheet" href="../../css/admin.css?v=<?= time() ?>">
+    <link rel="stylesheet" href="./css/admin.css?v=<?= time() ?>">
 </head>
-
+<!-- <a href="../css/admin.css"></a> -->
 <body>
     <!-- Menu Section Starts -->
     <div class="menu text-center">
         <div class="wrapper">
             <ul>
                 <li>
-                    <a href="index.php">Accueil</a>
+                    <a href="dashboard.php">Accueil</a>
                 </li>
                 <li>
                     <a href="manage-admin.php">Admin</a>

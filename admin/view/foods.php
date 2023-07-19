@@ -16,23 +16,12 @@
     </section>
     <!-- fOOD sEARCH Section Ends Here -->
 
-    <!-- CAtegories Section Starts Here -->
-    <section class="categories">
-        <div class="container" id="Cate_Yes">
-            <h2 class="text-center">Explore Foods</h2>
 
-
-            <div class="clearfix"></div>
-        </div>
-    </section>
-    <!-- Categories Section Ends Here -->
 
     <!-- fOOD MEnu Section Starts Here -->
     <section class="food-menu">
         <div class="container" id="Food_Yes">
             <h2 class="text-center">Food Menu</h2>
-
-
 
             <div class="clearfix"></div>
 
@@ -40,9 +29,6 @@
 
         </div>
 
-        <p class="text-center">
-            <a href="./foods.php">See All Foods</a>
-        </p>
     </section>
     <!-- fOOD Menu Section Ends Here -->
 

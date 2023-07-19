@@ -21,3 +21,12 @@ if (isset($_POST["save"])) {
 <?php
     endforeach;
 }
+
+if (isset($_POST["number"])) {
+
+    $SaveAdmin = $DataClass->count_admins();
+    foreach ($SaveAdmin as $count) :
+
+        echo $count["TOTAL"];
+    endforeach;
+}

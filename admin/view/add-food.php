@@ -2,7 +2,7 @@
 
 <div class="content">
     <div class="wrapper">
-        <h1>Ajouter Nourriture</h1>
+        <h1>Ajouter Plat</h1>
         <br><br>
         <form action="" method="Post" id="myForm" enctype="multipart/form-data">
 

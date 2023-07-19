@@ -4,7 +4,7 @@
     <div class="wrapper">
         <h1>Ajouter Admin</h1>
         <br><br>
-        <form action="" method="Post" id="myForm">
+        <form action="" method="Post" id="myForm" >
 
             <table class="tbl-30">
                 <tr>
